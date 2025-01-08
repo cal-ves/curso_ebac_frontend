@@ -1,1 +1,0 @@
-function getRandomColor(){let t="#";for(let o=0;o<6;o++)t+="0123456789ABCDEF"[Math.floor(16*Math.random())];return t}setInterval(()=>{document.body.style.backgroundColor=getRandomColor()},1e3);

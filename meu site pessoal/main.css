@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'darksouls';
+    src: url('./fonts/OptimusPrinceps.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    font-family: 'darksouls';
+    font-weight: normal;
+    padding: 16px 16px;
+    font-size: 28px;
+    color:beige;
+    background-color: black;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 26px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color:beige;
+}
+
+body .container {
+    max-width: auto;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+section .container{
+    background-color: rgba(15, 15, 15, 0.6);
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container{
+    align-items: flex-start;
+    padding-bottom: 8px;
+}
+
+.cinder {
+    width: 100%;
+    
+}
+
+body {
+    background-image: url(./images/fire_link.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.gif {
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+section h2{
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-top: 16px;
+    font-family: 'darksouls';
+    font-weight: strong;
+    font-size: 40px;
+    color:beige;
+    }
+
+section p, .container li {
+    list-style: none;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-size: 22px;
+    font-weight: normal;
+    color:beige;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container li{
+    display: inline-flex;
+}
+
+#buy-list {
+    display: inline-flex;
+    justify-content: space-between; 
+    margin-left: 100px;
+    
+}
+
+#buy-list a img {
+    width: 360px;
+    height: 480px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button  {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #8f8319;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #bebc35;
+    }
+
+    input:focus, textarea:focus{
+        outline-color: #182C61;
+    }
+
+footer {
+    text-align: center;
+    font-weight: normal;
+    padding: 16px 16px;
+    font-size: 16px;
+    color:beige;
+    background-color: black;
+}

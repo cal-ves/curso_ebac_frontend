@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@40    0;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <header>
+                <img src="./images/logo.svg" alt="">
+                <h1>Contatos</h1>
+            </header>
+            <form>
+                <input type="text" placeholder="Nome" required id="nome-contato">
+                <input type="tel" placeholder="Número" required id="numero-contato">
+                <button type="submit">Adicionar Contato</button>
+            </form>
+            <table cellspacing="0">
+                <thead id="head">
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </thead>
+                <tbody id="agenda">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
